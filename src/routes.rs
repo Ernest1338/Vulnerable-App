@@ -1,5 +1,4 @@
-use crate::AppState;
-use crate::error::AppError;
+use crate::{AppState, error::AppError};
 use axum::{
     extract::{Query, State},
     response::{Html, IntoResponse, Redirect},
